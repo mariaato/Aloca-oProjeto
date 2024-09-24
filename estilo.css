@@ -1,0 +1,183 @@
+/* Define o estilo global para a página */
+body {
+    color: palevioletred;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinha os elementos na vertical */
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Centraliza o título e o formulário na página */
+h1 {
+    color: palevioletred;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilo para os rótulos (labels) */
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada (input) de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+/* Alteração de cor ao focar nos campos de texto */
+input[type="text"]:focus {
+    background-color: #e9e9e9;
+    border-color: #7b0b54;
+}
+
+/* Estilo para os botões de enviar e limpar */
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cor do botão enviar */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Alteração da cor do botão enviar ao passar o mouse */
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Cor do botão limpar */
+input[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Alteração da cor do botão limpar ao passar o mouse */
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+/* Estilo do título */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+/* Estilo geral para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para as tabelas */
+.tabela-locacoes {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabela-locacoes th, .tabela-locacoes td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela-locacoes th {
+    background-color: #df1f8c;
+    color: white;
+}
+
+.tabela-locacoes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabela-locacoes tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para o formulário de exclusão */
+.form-excluir {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-excluir label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-excluir input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.botao-excluir {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-excluir:hover {
+    background-color: #c82333;
+}
+
+/* Estilo para o link de voltar ao início */
+.botao-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #e155b0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-link:hover {
+    background-color: #b30074;
+}
